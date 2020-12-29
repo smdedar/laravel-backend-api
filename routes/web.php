@@ -20,4 +20,6 @@ Route::get('/', function () {
 
 Route::post('/register',[AuthController::class, 'register']);
 
+//Route::get
+
 
